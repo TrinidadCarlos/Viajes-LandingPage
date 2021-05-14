@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="servicios medicos. enfermeria en cdmx. consultas y hospitalizaciones." >
+    <link rel="shortcut icon" href="./img/favicon.png">
+
+    <link rel="preload" href="css/app.css" as="style">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="preload" href="js/app.js" as="script">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Medical Center</title>
+</head>
+
+<body>
+    
+    <div class="spinner">
+        <div class="contenedor-spinn">
+            <div class="spinn"></div>
+            <p>Cargando...</p>
+        </div>
+    </div>
+
+    <!-- ---------------------------------- LOGOTIPO   -----------------------------------   -->
+
+    <nav class="nav container">
+        <div class="nav-contenedor">
+                <a href="./index.html" class="nav-nombre">
+                    <i class="nav-icono fas fa-plane-departure"></i>
+                    dream<span>trips </span>
+                </a>
+        </div>
+    </nav>
+
+    <!-- ---------------------------------- FORMULARIO  -----------------------------------   -->
+
+    <main class="formulario" >
+         <div class="formulario-contenedor">
+            <form class="formulario-form">
+                <div class="campos">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" placeholder="Ingresa tu nombre" name="nombre"  id="nombre">
+                </div>
+
+                <div class="campos">
+                    <label for="correo">Correo:</label>
+                    <input type="email" placeholder="Ingresa tu correo" name="correo"  id="correo">
+                </div>
+
+                <div class="campos">
+                    <label for="telefono">Contacto:</label>
+                    <input type="number" placeholder="Número de contacto" name="telefono"  id="telefono">
+                </div>
+
+                <div class="radios">
+
+                    <p>Has usado nuestros servicios antes?</p>
+
+                    <div class="radios-contenedor">
+                        
+                        <input type="radio" name="cliente" id="cliente" value="si"> <label for="cliente">si</label>
+                        
+                        
+                        <input type="radio" name="cliente" id="cliente" value="no" checked> <label for="cliente">no</label>
+                    </div>
+                </div>
+
+                <div class="campos">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje"  rows="5" placeholder="Coloca tu mensaje"></textarea>
+                </div>
+
+                <input type="submit" value="enviar" class="formulario-submit boton">
+            </form>
+         </div>
+    </main>
+
+
+<!-- ++++++++++++++++++++++++++++++++  FOOTER  ++++++++++++++++++++++++++++++++  -->
+<footer class="footer">
+    <div class="container footer-contenedor">
+        <div class="footer-contenedor-img">
+            <img class="footer-img" src="./img/footer.svg" alt="imagen de alguien asando malvaviscos">
+        </div>
+        <div class="footer-redes">
+          <p>Visitanos!</p>
+          <a href="www.facebook.com"> <i class="fab fa-facebook-square"></i> </a>
+          <a href="www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+          <a href="www.youtube.com"><i class="fab fa-youtube-square"></i></a>
+          <a href="www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+      </div>
+      </div>
+      <em > &copy Copyright TrinidadVelarde todos los derechos reservados   </em>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+
+</html>

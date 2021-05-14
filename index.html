@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="servicios de viajes. agencia en cdmx. paquetes y ofertas.">
+
+    <link rel="preload" href="css/app.css" as="style">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="preload" href="js/app.js" as="script">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Agencia de Viajes</title>
+</head>
+
+<body>
+
+    <div class="spinner">
+        <div class="contenedor-spinn">
+            <div class="spinn"></div>
+            <p>Cargando...</p>
+        </div>
+    </div>
+
+
+    <!-- <a href="#p1" class="muestra">parrafo 1</a>
+    <a href="#p2">parrafo 2</a>
+    <hr>
+    <div id="p1" class="ocultar    contenedor">
+        <h5>parrafo 1</h5>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nemo autem quibusdam repellat aliquid necessitatibus hic sint iure architecto nam, ipsam magnam fugiat eveniet cum aliquam ipsum esse provident id.
+        <br>
+        <a href="#" class="ocultar">referencia</a>
+    </div>
+    <div  id="p2" class="ocultar otro">
+        <h5>parrafo 2</h5>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nemo autem quibusdam repellat aliquid necessitatibus hic sint iure architecto nam, ipsam magnam fugiat eveniet cum aliquam ipsum esse provident id.
+        <br>
+        <a href="#" class="ocultar">referencia</a>
+    </div> -->
+
+    <!-- ---------------------------------- NAVEGACION  -----------------------------------   -->
+    <nav class="nav container">
+        <div class="nav-contenedor">
+            <a href="./index.html" class="nav-nombre">
+                <i class="nav-icono fas fa-plane-departure"></i>
+                dream<span>trips </span>
+            </a>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header-detalles container">
+            <h1 class="header-titulo">sabemos que no solo se trata de salir de viaje</h1>
+            <p class="header-texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi exercitationem sit expedita doloremque
+                neque. Culpa aperiam similique dolorum optio facilis?
+            </p>
+            <a href="./contacto.html" class="header-enlace boton">Comunicate con nosotros</a>
+        </div>
+    </header>
+
+    <!-- ++++++++++++++++++++++++++++++++  DESTINOS MAS POPULARES  ++++++++++++++++++++++++++++++++  -->
+    <section class="destinos">
+        <h2 class="titulos destinos-titulo">destinos más populares</h2>
+        <div class="destinos-contenedor container">
+            <div class="destino-card">
+                <h3 class="destino-card-nombre">francia</h3>
+                <div class="destino-card-imagen">
+                    <img  src="./img/destino1.jpg" alt="Puesto numero uno en popularidad: Paris" class="lazy-load">
+                </div>
+                <p class="destino-card-texto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatibus sed libero qui ullam!
+                    Exercitationem.
+                </p>
+                <p class="destino-card-mes"> Viajes del mes: <span> 100 </span> </p>
+            </div> <!-- DESTNO CARD -->
+
+            <div class="destino-card">
+                <h3 class="destino-card-nombre">italia</h3>
+                <div class="destino-card-imagen">
+                    <img src="./img/destino2.jpg" alt="Puesto numero dos en popularidad: Italia" class="lazy-load">
+                </div>
+                <p class="destino-card-texto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatibus sed libero qui ullam!
+                    Exercitationem.
+                </p>
+                <p class="destino-card-mes"> Viajes del mes: <span> 80 </span> </p>
+            </div> <!-- DESTNO CARD -->
+
+            <div class="destino-card">
+                <h3 class="destino-card-nombre">los cabos</h3>
+                <div class="destino-card-imagen">
+                    <img src="./img/destino3.jpg" alt="Puesto numero tres en popularidad: Los Cabos" class="lazy-load">
+                </div>
+                <p class="destino-card-texto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatibus sed libero qui ullam!
+                    Exercitationem.
+                </p>
+                <p class="destino-card-mes"> Viajes del mes: <span> 75 </span> </p>
+            </div> <!-- DESTNO CARD -->
+
+        </div> <!-- DESTINOS CONTENEDOR -->
+    </section>
+
+    <!-- ++++++++++++++++++++++++++++++++  GALERIA  ++++++++++++++++++++++++++++++++  -->
+
+    <main class="galeria">
+        <h2 class="titulos"> galería</h2>
+        <p class="descripcion container"> estas son algunas de las fotos que nos envían nuestros clientes! </p>
+        <div class="galeria-contenedor container">
+            <div>
+                <img src="./img/galeria1.jpg" alt="foto de nuestra galeria">
+            </div>
+            <div class="galeria-redes">
+                <p>visitanos en nuestras redes sociales!</p>
+                <div class="redes-contenedor">
+                    <a href="www.facebook.com"> <i class="fab fa-facebook-square"></i> </a>
+                    <a href="www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+                    <a href="www.youtube.com"><i class="fab fa-youtube-square"></i></a>
+                    <a href="www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+                </div>
+            </div>
+            <div>
+                <img src="./img/galeria2.jpg" alt="foto de nuestra galeria" class="lazy-load">
+            </div>
+            <div>
+                <img src="./img/galeria3.jpg" alt="foto de nuestra galeria" class="lazy-load">
+            </div>
+            <div>
+                <img src="./img/galeria4.jpg" alt="foto de nuestra galeria" class="lazy-load">
+            </div>
+            <div>
+                <img src="./img/galeria5.jpg" alt="foto de nuestra galeria" class="lazy-load">
+            </div>
+            <div>
+                <img src="./img/galeria6.jpg" alt="foto de nuestra galeria" class="lazy-load">
+            </div>
+            <div class="galeria-contacto">
+                <a href="./contacto.html" class="galeria-enlace boton">Comunicate con nosotros</a>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- ++++++++++++++++++++++++++++++++  Testimonios  ++++++++++++++++++++++++++++++++  -->
+
+    <section class="testimonio" id="testimonio">
+        <div class="testimonio-contenedor container">
+            <div class="testimonio-detalle">
+                <div class="testimonio-controles">
+                    <a href="#testimonio1">testimonio uno</a>
+                    <a href="#testimonio2">testimonio dos</a>
+                    <a href="#testimonio3">testimonio tres</a>
+                </div>
+
+                <div class="testimonio-textos">
+                    <blockquote>
+                        <p id="testimonio1" class="testimonio-texto">
+                            <span>Familia velarde</span>: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Exercitationem asperiores reiciendis magni tenetur hic. Rerum voluptates possimus pariatur
+                            quaerat aperiam.
+                            <a href="#testimonio" class="testimonio-cierre"> cerrar</a>
+                        </p>
+                    </blockquote>
+                    <blockquote>
+                        <p id="testimonio2" class="testimonio-texto">
+                            <span>Familia garcía</span>: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Exercitationem asperiores reiciendis magni tenetur hic. Rerum voluptates possimus pariatur
+                            quaerat aperiam.
+                            <a href="#testimonio" class="testimonio-cierre"> cerrar</a>
+                        </p>
+                    </blockquote>
+                    <blockquote>
+                        <p id="testimonio3" class="testimonio-texto">
+                            <span>Familia Beltrán</span>: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Exercitationem asperiores reiciendis magni tenetur hic. Rerum voluptates possimus pariatur
+                            quaerat aperiam.
+                            <a href="#testimonio" class="testimonio-cierre"> cerrar</a>
+                        </p>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="tarjeta-imagen">
+                <img src="./img/tarjetasimagen.svg" alt="Imagen para acompañar los testimonios" class="lazy-load">
+            </div>
+        </div>
+    </section>
+    <!-- ++++++++++++++++++++++++++++++++  DATOS  ++++++++++++++++++++++++++++++++  -->
+
+    <section class="datos">
+        <h2 class="titulos">tu mejor opción</h2>
+        <div class=" ">
+            <div class="datos-contenedor  container">
+                <div class="dato">
+                    <i class="dato-icono fas fa-money-bill-wave"></i>
+                    <h3 class="dato-titulo">El mejor precio</h3>
+                    <p class="dato-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit provident dolore
+                        eveniet asperiores dolorum non aperiam repellat cupiditate officiis accusamus.</p>
+                </div>
+
+                <div class="dato">
+                    <i class="dato-icono fas fa-shield-alt"></i>
+                    <h3 class="dato-titulo">seguridad</h3>
+                    <p class="dato-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit provident dolore
+                        eveniet asperiores dolorum non aperiam repellat cupiditate officiis accusamus.</p>
+                </div>
+
+                <div class="dato">
+                    <i class="dato-icono far fa-calendar-check"></i>
+                    <h3 class="dato-titulo">puntualidad</h3>
+                    <p class="dato-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit provident dolore
+                        eveniet asperiores dolorum non aperiam repellat cupiditate officiis accusamus.</p>
+                </div>
+
+                <div class="dato">
+                    <i class="dato-icono fas fa-id-card-alt"></i>
+                    <h3 class="dato-titulo">confianza</h3>
+                    <p class="dato-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit provident dolore
+                        eveniet asperiores dolorum non aperiam repellat cupiditate officiis accusamus.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ++++++++++++++++++++++++++++++++  FOOTER  ++++++++++++++++++++++++++++++++  -->
+    <footer class="footer">
+        <div class="container footer-contenedor">
+            <div class="footer-contenedor-img">
+                <img class="footer-img" src="./img/footer.svg" alt="imagen de alguien asando malvaviscos" class="lazy-load">
+            </div>
+            <div class="footer-redes">
+                <p>Visitanos!</p>
+                <a href="www.facebook.com"> <i class="fab fa-facebook-square"></i> </a>
+                <a href="www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+                <a href="www.youtube.com"><i class="fab fa-youtube-square"></i></a>
+                <a href="www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+            </div>
+        </div>
+        <em> &copy Copyright TrinidadVelarde todos los derechos reservados </em>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
